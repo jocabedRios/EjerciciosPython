@@ -103,7 +103,7 @@ usuario = Usuario("001", "Papita","Frita", 150000)
 # Se le asigna un Vehículo al Usuario
 usuario.agregar_vehiculo(vehiculo1)
 # Se registra al usuario dentro de la Concesionaria
-concesionaria.
+concesionaria.agregar_usuarios(usuario)
 # Se le asignan Vehículos a la Concesionaria
 concesionaria.agregar_vehiculo(vehiculo2)
 concesionaria.agregar_vehiculo(vehiculo3)
